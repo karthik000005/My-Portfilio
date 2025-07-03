@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <header>
+    <h1>Karthik K</h1>
+    <p>Frontend Developer</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hello! I’m Karthik, a passionate frontend developer. I love building responsive websites and learning new web technologies.</p>
+    <h3>Skills:</h3>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
+    <a href="resume.pdf" class="button" download>Download Resume</a>
+  </section>
+
+  <section id="education">
+    <h2>Education & Training</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Institution</th>
+          <th>Course</th>
+          <th>Year</th>
+          <th>Percentage / CGPA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>University College of Engineering, Tindivanam</td>
+          <td>B.E (Electronics and Communication Engineering)</td>
+          <td>2020 - 2024</td>
+          <td>CGPA: 7.05</td>
+        </tr>
+        <tr>
+          <td>Government Higher Secondary School, Ennayiram</td>
+          <td>HSLC</td>
+          <td>2020</td>
+          <td>65%</td>
+        </tr>
+        <tr>
+          <td>Government High School, Se. Kunnathur</td>
+          <td>SSLC</td>
+          <td>2018</td>
+          <td>82%</td>
+        </tr>
+        <tr>
+          <td>Besant Technologies, Tambaram</td>
+          <td>Full Stack Development Training</td>
+          <td>2025</td>
+          <td>Completed</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Portfolio Website</h3>
+      <p>A personal portfolio built with HTML, CSS, and JS.</p>
+      <a href="#" target="_blank">Live Demo</a>
+      <a href="#" target="_blank">GitHub</a>
+    </div>
+    <!-- Add more projects if needed -->
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+
+    <p><strong>Address:</strong><br>
+      No-19, Manthaiveli Street,<br>
+      Se.Kunnathur,<br>
+      Viluppuram District,<br>
+      Pin code - 605 651
+    </p>
+
+    <form onsubmit="return sendMessage(event)">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  ...
+  <footer>
+    <p>© 2025 Karthik K</p>
+    <p><a href="tel:+919876543210">📞 Call Me</a></p>
+    <div class="social">
+      <a href="#">GitHub</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Twitter</a>
+    </div>
+  </footer>
+
+  <!-- Go to Top Button -->
+  <button id="topBtn" title="Go to Top">↑ Top</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
